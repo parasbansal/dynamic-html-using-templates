@@ -46,7 +46,7 @@ The project uses the `URLSearchParams` to get the search parameters from the URL
 
 ## License
 
-This project is licensed under the MIT license. Read more about it in the `LICENSE` file.
+This project is licensed under the Apache License 2.0. Read more about it in the `LICENSE` file.
 
 ## Author
 
