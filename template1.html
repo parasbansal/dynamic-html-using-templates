@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Template 1</title>
+  </head>
+  <body>
+    <div id="template" class="w-full">
+      <div class="container">
+        <h1>Name: <span data-field="name"></span></h1>
+        <div>Age: <span data-field="age"></span></div>
+
+        <p>
+          Above name and age are dynamic information in this template using the
+          JSON in the search parameters
+        </p>
+
+        <br />
+
+        <div class="detail-box" data-field="work">
+          <h2>Work</h2>
+          <div>Company: <span data-field="companyName"></span></div>
+          <div>Position: <span data-field="position"></span></div>
+          <div>Salary: <span data-field="salary"></span></div>
+        </div>
+        <p>Using the nested data from the JSON inside the work object.</p>
+
+        <br />
+
+        <p>
+          Append
+          <pre
+            >?json=%7B"name"%3A"James"%2C"age"%3A18%2C"work"%3A%7B"companyName"%3A"Amazon"%2C"position"%3A"Engineer"%2C"salary"%3A10000%7D%7D</pre
+          >
+          right after <code>.html</code> in the URL to see the dynamic data for this template.
+        </p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

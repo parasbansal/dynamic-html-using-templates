@@ -1,0 +1,9 @@
+{
+  "name": "James",
+  "age": 18,
+  "work": {
+    "companyName": "Amazon",
+    "position": "Engineer",
+    "salary": 10000
+  }
+}
